@@ -1,65 +1,44 @@
 
-/**
-* -------------
-* Global Styles
-* -------------
-*/
-
 body {
-  /* Default font family and font color */
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #231f20;
+}
+.header-title {
+  margin: 8px;
+  padding: 5px;
+  background-color: #fcce00bd;
+  color: #ffffff;
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
+  font-size: 88px;
 }
 
-p, li, textarea, label, input, select {
-  /* Default font size and line height */
+.header-subtitle {
+  margin: 8px;
+  padding: 5px;
+  font-size: 38px;
+  background-color: #ff6b00bd;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 900;
+  line-height: 1;
+}
+.header-stripe {
+  margin: 8px;
 }
 
-
-
-h1 {
-   /* Default font, size, and margins */
+.header-stripe--red {
+  height: 32px;
+  background-color: #e02020bd;
+}
+.header-stripe--purple {
+  height: 16px;
+  background-color: #b620e0bd;
 }
 
-h2 {
-  /* Default font, size, and margins */
+.header-stripe--blue {
+  height: 8px;
+  background-color: #6236ffbd;
 }
-
-h3 {
-  /* Default font, size, and margins */
-}
-
-h4 {
-  /* Default font, size, and margins */
-}
-
-h5 {
-  /* Default font, size, and margins */
-}
-
-h6 {
-  /* Default font, size, and margins */
-}
-
-
-a {
-  /* Link color */
-}
-
-a:hover {
-  /* Link color on mouse over */
-}
-
-
-/**
-* ------
-* Layout
-* ------
-*/
-
-
-
-
-/**
-* ----------
-* Components
-* ----------
-*/
