@@ -3,6 +3,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: #231f20;
+  text-align: center;
 }
 .header-title {
   margin: 8px;
@@ -41,4 +42,62 @@ body {
 .header-stripe--blue {
   height: 8px;
   background-color: #6236ffbd;
+}
+
+.title1 {
+  margin: 64px;
+  font-size:40px;
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
+}
+
+.bloc-title {
+  margin-bottom: 34px;
+  margin-right: 32px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.bloc-text {
+  margin-top: 34px;
+  margin-right: 32px;
+  margin-bottom: 30px;
+  margin-left: 48px;
+  font-size: 16px;
+  text-align: justify;
+}
+.bouton1 {
+  width: 185px;
+  height: 48px;
+  margin: 30px 32px 22px 0px;
+  padding: 10px 36px 10px 36px;
+  border-radius: 15px;
+  border: solid 4px;
+  font-weight: bold;
+  color: #fcce00;
+  font-size: 20px
+}
+.bouton {
+  text-align: right;
+}
+
+.ordi1 {
+  display: block;
+  mix-blend-mode: darken;
+  margin-left: auto;
+  margin-top: 40px;
+}
+.colonnes {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.bloc {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.bloc2 {
+background-image: url(../img/bg-yellow.svg);
 }
