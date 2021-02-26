@@ -50,6 +50,7 @@ body {
   font-weight: 900;
   line-height: 1;
   text-align: center;
+  color: #231f20;
 }
 
 .bloc-title {
@@ -200,4 +201,58 @@ background-image: url(../img/bg-yellow.svg);
 
 .part2 {
   margin-left: 60px;
+}
+.lasttitle {
+  font-size:40px;
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 64px;
+}
+
+.fond-noir{
+  background-color: black;
+  padding-top: 64px;
+}
+
+.grid-jeux{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.jeux-video{
+  position: relative;
+}
+
+.grid-image{
+  line-height:0;
+  overflow: hidden;
+  border-radius:20px;
+}
+
+.grid-image img{
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform:scale(1.1);
+}
+
+.effet-jeux {
+  font-size: 1.5em;
+  font-weight: bold;
+  z-index: 1;
+  position:absolute;
+  height:100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  background: rgba(90,0,10,0.4);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
