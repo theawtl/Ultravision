@@ -288,7 +288,7 @@ color: #ffffff;
 .form {
   display: flex;
   align-items: stretch;
-  
+  padding-bottom: 597px;
 }
 
 .textrect {
