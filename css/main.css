@@ -80,6 +80,7 @@ body {
   justify-content: space-around;
   align-items: stretch;
   margin-bottom: 86px;
+}
 
 .bloc {
   flex-basis: 0;
