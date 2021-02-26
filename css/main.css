@@ -67,6 +67,27 @@ body {
   font-size: 16px;
   text-align: justify;
 }
+
+
+.ordi1 {
+  display: block;
+  mix-blend-mode: darken;
+  margin-left: auto;
+  margin-top: 40px;
+}
+.colonnes1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  margin-bottom: 86px;
+
+.bloc {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.bloc2 {
+background-image: url(../img/bg-yellow.svg);
+}
 .bouton1 {
   width: 185px;
   height: 48px;
@@ -82,22 +103,40 @@ body {
   text-align: right;
 }
 
-.ordi1 {
-  display: block;
-  mix-blend-mode: darken;
-  margin-left: auto;
-  margin-top: 40px;
-}
-.colonnes {
+.colonnes2 {
   display: flex;
   justify-content: space-around;
   align-items: stretch;
+  margin-bottom: 86px;
 }
-
-.bloc {
+.autre-bloc {
   flex-basis: 0;
   flex-grow: 1;
 }
-.bloc2 {
-background-image: url(../img/bg-yellow.svg);
+
+.orange {
+  margin: auto;
+}
+
+.degorange {
+  background-image: url(../img/bg-orange.svg);
+}
+
+.titre2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+}
+
+.bouton2 {
+  width: 185px;
+  height: 48px;
+  margin: 30px 32px 22px 0px;
+  padding: 10px 36px 10px 36px;
+  border-radius: 15px;
+  border: solid 4px;
+  font-weight: bold;
+  color: #ff6b00;
+  font-size: 20px
 }
