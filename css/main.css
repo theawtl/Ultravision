@@ -141,3 +141,60 @@ background-image: url(../img/bg-yellow.svg);
   color: #ff6b00;
   font-size: 20px
 }
+
+.blanc1 {
+  font-weight: 900;
+  font-size:32px;
+  color: #ffffff;
+}
+
+.blanc2 {
+  font-size:24px;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+.bouton3 {
+  width: 185px;
+  height: 48px;
+  padding: 7px 24px 7px 23px;
+  border-radius: 15px;
+  border: solid 4px;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 20px;
+
+}
+
+.partie3 {
+  background-image: url(../img/bg-red.svg);
+}
+.bloc1 {
+  text-align: left;
+  margin-left: 60px;
+}
+.autrecta {
+  margin-top: 32px;
+}
+
+.partie4 {
+  background-image: url(../img/bg-violet.svg);
+}
+
+.autre {
+  margin-bottom: 0px;
+}
+
+.colonnes3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.ecran {
+  margin-bottom: 48px;
+}
+
+.partie5 {
+  background-image: url(../img/bg-blue.svg);
+}
