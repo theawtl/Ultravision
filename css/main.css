@@ -171,7 +171,6 @@ background-image: url(../img/bg-yellow.svg);
 }
 .bloc1 {
   text-align: left;
-  margin-left: 60px;
 }
 .autrecta {
   margin-top: 32px;
@@ -197,4 +196,8 @@ background-image: url(../img/bg-yellow.svg);
 
 .partie5 {
   background-image: url(../img/bg-blue.svg);
+}
+
+.part2 {
+  margin-left: 60px;
 }
